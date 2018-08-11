@@ -1,0 +1,390 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+ /*---------- Site Wide  ----------*/
+
+/* about */
+
+#container-main{
+	margin:40px auto;
+	width:95%;
+	min-width:320px;
+	max-width:960px;
+}
+
+
+.accordion-container {
+	width: 100%;
+	margin: 0 0 20px;
+	clear:both;
+}
+
+.accordion-titulo {
+	position: relative;
+	display: block;
+  font-family: 'Cherry Cream Soda', cursive;
+	padding: 20px;
+	font-size: 24px;
+	font-weight: bold;
+	background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/04/15/115621dd81017c2.jpg");
+	background-attachment: fixed;
+  background-size: 100% 100%;
+  color:white;
+  text-shadow: 
+            -2px -2px 1px white,
+            1px -2px 1px white,
+            2px -2px 1px white,
+            -2px  1px 1px white,
+            2px  1px 1px white,
+            -2px  2px 1px white,
+            1px  2px 1px white,
+            2px  2px 1px white;
+  
+}
+.accordion-titulo.open {
+	background-image: url("https://orig00.deviantart.net/1fe7/f/2010/178/9/3/bright_color_blend_by_sonyrootkit.png");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.accordion-titulo:hover {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3EnIhVJYrwC-fudY-C0o8NiQh9mR-pJoKGnfsmLYX1r-C0mE5");
+  background-size: 100% 100%;
+}
+
+.accordion-titulo span.toggle-icon:before {
+	content:"+";
+}
+
+.accordion-titulo.open span.toggle-icon:before {
+	content:"-";
+}
+
+.accordion-titulo span.toggle-icon {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.accordion-content {
+	display: none;
+	padding: 20px;
+	overflow: auto;
+}
+
+.accordion-content p{
+	margin:0;
+}
+
+
+
+/* Button colours - normal */
+.btn-primary {
+    color: white;
+    background-color:  rgb(59, 97, 158);
+    border-color:  rgb(78, 242, 56);
+}
+
+/* Button colours - Hover */
+.btn-primary:hover {
+    color: white;
+    background: linear-gradient(to right, rgba(124, 119, 119, 0.829), rgb(35, 23, 102));
+    
+
+}
+
+/* Responsive text */
+html {
+  font-size: 14px;
+}
+
+p{
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 16px;
+}
+
+.navme{
+  font-family: 'Cherry Cream Soda', cursive;
+  font-size: 50px;
+}
+
+h1{
+  font-family: 'Patrick Hand', cursive;
+  color:white;
+  text-shadow: 
+            -2px -2px 1px black,
+            1px -2px 1px black,
+            2px -2px 1px black,
+            -2px  1px 1px black,
+            2px  1px 1px black,
+            -2px  2px 1px black,
+            1px  2px 1px black,
+            2px  2px 1px black;
+}
+h2{
+  margin-bottom: 20px;
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+  color: white;
+  text-shadow: 
+            -2px -2px 1px black,
+            1px -2px 1px black,
+            2px -2px 1px black,
+            -2px  1px 1px black,
+            2px  1px 1px black,
+            -2px  2px 1px black,
+            1px  2px 1px black,
+            2px  2px 1px black;
+}
+
+
+
+/* Navbar & Footer text colour - normal */
+#colourmein {
+  color:white;
+  font-size: 22px;
+  text-shadow: 
+            -2px -2px 1px black,
+            1px -2px 1px black,
+            2px -2px 1px black,
+            -2px  1px 1px black,
+            2px  1px 1px black,
+            -2px  2px 1px black,
+            1px  2px 1px black,
+            2px  2px 1px black;
+}
+
+.navbar{
+  background-image: url("https://cdn.designcrowd.com/blog/2015/November/achieving-maximum-impact-through-minimalism/GR_StunningMinimalDesign_Banner_828x300.png");
+  background-attachment: fixed;
+  background-position-y: 100px;
+}
+
+/* Navbar & Footer text colour - hover */
+#colourmein:hover {
+  color:  rgb(59, 97, 158);
+}
+
+
+/*---------- welcome-section ----------*/
+
+/* Horizontal rule formatting */
+#welcome-section hr {
+  background-color: white;
+  height: 0.1rem
+}
+
+/* welcome-section text colour */
+#welcome-section {
+  color: #E9F1DF;
+}
+
+/* welcome-section image formatting */
+.rounded-circle {
+  height: 50%;
+  width: 50%;
+  border: 0.3rem solid #E9F1DF;
+}
+
+/* welcome-section padding & colour */
+.jumbotron {
+  padding-bottom: 10px;
+  margin-bottom: 150px;
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/images1/Bar-3d-colorful-HD-wallpaper.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/* welcome-section heading font size */
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+/* welcome-section container width */
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+/* welcome-section container height */
+#welcome-section {
+  height: 100vh;
+}
+
+/* welcome-section margin top*/
+
+#welcome-sectionimg {
+  margin-top: 50px;
+}
+
+
+
+
+
+
+/*---------- About ----------*/
+
+/* Horizontal rule formatting */
+#About hr {
+  background-color: #36B1BF;
+  height: 0.1rem
+}
+
+/* welcome-section text formatting */
+#About h1 {
+  color: #36B1BF;
+}
+
+/* Padding */
+#About {
+  padding-top: 30px;
+}
+
+
+/*---------- Projects ----------*/
+
+/* Horizontal rule formatting */
+#projects hr {
+  background-color: #36B1BF;
+  height: 0.1rem
+}
+
+/* welcome-section text formatting */
+#projects h1 {
+  color: #36B1BF;
+}
+
+/* Padding */
+#projects {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Center align the text */
+#projects {
+  text-align: center !important;
+}
+
+/* Enlarge button*/
+.btn {
+  display: block;
+}
+
+.card {
+  display: block;
+  margin: 0 auto;
+  width: 100% !important;
+}
+
+/*---------- Footer ----------*/
+
+/* Footer text size/colour */
+.footer i {
+  padding: 0px 20px;
+  color: #F5A503;
+}
+
+/* Footer icon positioning */
+.footer .fa {
+    display:inline-block;
+    vertical-align:middle;
+}
+
+/* Footer sizing */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px; /* Vertically center the text */
+  background-color: #c079ceca;
+}
+
+/* For footer positioning */
+html {
+  position: relative;
+  min-height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Margin bottom by footer height */
+body {
+  margin-bottom: 60px;
+}
+
+
+
+/*---------- Miscellaneous - Site colours (for reference) ----------*/
+
+/* Red/Pink */
+#colour1 {
+  background-color:  rgb(59, 97, 158);
+}
+
+/* Orange */
+#colour2 {
+  background-color: #F5A503;
+}
+
+/* White(ish) */
+#colour3 {
+  background-color: #E9F1DF;
+}
+
+/* Lighter Blue */
+#colour4 {
+  background-color: #4AD9D9;
+}
+
+/* Darker Blue */
+#colour5 {
+  background-color: #36B1BF;
+}
+
+/*---------- Social Media / Font Awesome Icons ----------*/
+
+/* LinkedIn icon - normal */
+.fa-linkedin-square {
+  color: #E9F1DF;
+}
+
+/* LinkedIn icon - hover */
+.fa-linkedin-square:hover {
+  color: #007bb6;
+}
+
+/* Github icon - normal */
+.fa-github {
+  color: #E9F1DF;
+}
+
+/* Github icon - hover */
+.fa-github:hover {
+  color: #833ab4;
+}
+
+/* Twitter icon - normal */
+.fa-twitter-square {
+  color: #E9F1DF;
+}
+
+/* Twitter icon - hover */
+.fa-twitter-square:hover {
+  color: #00aced;
+}
+
+/* Medium icon - normal */
+.fa-medium {
+  color: #E9F1DF;
+}
+
+/* Medium icon - hover */
+.fa-medium:hover {
+  color: #02b875;
+}
