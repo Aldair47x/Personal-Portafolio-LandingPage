@@ -14,7 +14,8 @@ a {
 	margin:40px auto;
 	width:95%;
 	min-width:320px;
-	max-width:960px;
+  max-width:960px;
+  box-sizing: border-box;
 }
 
 
@@ -208,7 +209,9 @@ h2{
 
 /* welcome-section container width */
 .jumbotron .container {
+  width: 70%;
   max-width: 40rem;
+  box-sizing: border-box;
 }
 
 /* welcome-section container height */
@@ -221,9 +224,6 @@ h2{
 #welcome-sectionimg {
   margin-top: 50px;
 }
-
-
-
 
 
 
@@ -267,7 +267,7 @@ h2{
 
 /* Center align the text */
 #projects {
-  text-align: center !important;
+  text-align: center;
 }
 
 /* Enlarge button*/
@@ -278,7 +278,7 @@ h2{
 .card {
   display: block;
   margin: 0 auto;
-  width: 100% !important;
+  width: 100%;
 }
 
 /*---------- Footer ----------*/
@@ -303,6 +303,7 @@ h2{
   height: 60px;
   line-height: 60px; /* Vertically center the text */
   background-color: #c079ceca;
+  box-sizing: border-box;
 }
 
 /* For footer positioning */
@@ -387,4 +388,25 @@ body {
 /* Medium icon - hover */
 .fa-medium:hover {
   color: #02b875;
+}
+
+.contenedor
+{
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media screen and(max-width:800px){
+  .accordion-container{
+    width: 100%;
+  }
+  .accordion-content
+  {
+    width: 100%;
+  }
+  .jumbotron{
+    width: 100%;
+  }
 }
