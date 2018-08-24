@@ -188,7 +188,7 @@ h2{
 
 /* welcome-section image formatting */
 .rounded-circle {
-  height: 50%;
+  height: 60%;
   width: 50%;
   border: 0.3rem solid #E9F1DF;
 }
@@ -196,7 +196,7 @@ h2{
 /* welcome-section padding & colour */
 .jumbotron {
   padding-bottom: 10px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   background-image: url("https://www.pixelstalk.net/wp-content/uploads/images1/Bar-3d-colorful-HD-wallpaper.jpg");
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -209,9 +209,9 @@ h2{
 
 /* welcome-section container width */
 .jumbotron .container {
-  width: 70%;
+  width: 100%;
   max-width: 40rem;
-  box-sizing: border-box;
+  
 }
 
 /* welcome-section container height */
@@ -390,23 +390,3 @@ body {
   color: #02b875;
 }
 
-.contenedor
-{
-  width: 80%;
-  max-width: 1000px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-@media screen and(max-width:800px){
-  .accordion-container{
-    width: 100%;
-  }
-  .accordion-content
-  {
-    width: 100%;
-  }
-  .jumbotron{
-    width: 100%;
-  }
-}
