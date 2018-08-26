@@ -7,7 +7,7 @@
 
 ## Usage & formatting
 
-<h2>Visit this codepen.io link to view the page! </h2>
+<h2>Visit this Heroku app link to view the page! </h2>
 
 <a href="https://personalportafolio.herokuapp.com/">Personal Portafolio LINK</a>
 
@@ -15,7 +15,7 @@ Usage:
 
 1. Fork and clone this repo on your computer.
 3. `cd` into the root directory and open it.
-4. Run `index.html` and open it with your favorite browser.
+4. Run `node start` and open it with your favorite browser.
 
 
 ## Author
